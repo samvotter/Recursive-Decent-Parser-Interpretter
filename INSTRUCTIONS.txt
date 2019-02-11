@@ -1,0 +1,17 @@
+This code was written in python.
+
+By default, it will read from a .txt file called:
+Sample Data.txt
+
+By default, the output is written into "output.txt" 
+************************************************
+If you would like to redirect the read in/out function 
+you need to change these lines of code:
+
+/*INPUT: Change line 160*/
+with open("Sample Data.txt", 'r') as a:
+
+/*OUTPUT: Change line 197*/
+with open('output.txt', 'w') as out:
+************************************************
+Just hit play.
